@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syrian Entrepreneurial Knowledge Network: Pre-Conflict (3D Interactive)</title>
+    <script src="https://unpkg.com/3d-force-graph@1.70.5/dist/3d-force-graph.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            background-color: #000;
+            color: #fff;
+        }
+        #graph-container {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+        }
+        .controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+            background-color: rgba(30, 30, 30, 0.8);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            max-width: 300px;
+            transition: transform 0.3s ease;
+            color: #fff;
+        }
+        .controls.collapsed {
+            transform: translateX(-290px);
+        }
+        .toggle-panel {
+            position: absolute;
+            top: 10px;
+            right: -40px;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(30, 30, 30, 0.8);
+            border-radius: 0 5px 5px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #fff;
+            font-weight: bold;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .description {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .legend-color {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .slider-container {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #fff;
+        }
+        input[type="range"] {
+            width: 100%;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(30, 30, 30, 0.9);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+            z-index: 10;
+            display: none;
+            max-width: 250px;
+            border: 1px solid #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="graph-container"></div>
+    
+    <div class="controls" id="controls-panel">
+        <div class="toggle-panel" id="toggle-panel">≡</div>
+        <div class="title">Syrian Entrepreneurial Knowledge Network: Pre-Conflict</div>
+        <div class="description">
+            Interactive 3D visualization of the Syrian entrepreneurial knowledge network before the conflict. 
+            This network shows the connections between entrepreneurs, with a higher proportion of internal nodes (80%).
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #40E0D0;"></div>
+                <span>Internal Syrian Entrepreneurs (80%)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #FA8072;"></div>
+                <span>Diaspora Syrian Entrepreneurs (20%)</span>
+            </div>
+        </div>
+        
+        <div class="slider-container">
+            <label for="node-size">Node Size:</label>
+            <input type="range" id="node-size" min="0.5" max="2" step="0.1" value="1">
+        </div>
+        
+        <div class="slider-container">
+            <label for="link-width">Link Width:</label>
+            <input type="range" id="link-width" min="0.1" max="2" step="0.1" value="0.5">
+        </div>
+        
+        <button class="button" id="reset-camera">Reset Camera</button>
+        <button class="button" id="toggle-rotation">Toggle Rotation</button>
+    </div>
+    
+    <div class="tooltip" id="node-tooltip"></div>
+
+    <script>
+        // Load the data directly from the files
+        const nodesData = [
+            // The CSV data will be loaded from the file
+        ];
+        
+        const linksData = [
+            // The CSV data will be loaded from the file
+        ];
+        
+        // Toggle panel functionality
+        document.getElementById('toggle-panel').addEventListener('click', function() {
+            document.getElementById('controls-panel').classList.toggle('collapsed');
+            this.textContent = document.getElementById('controls-panel').classList.contains('collapsed') ? '≡' : '×';
+        });
+        
+        let Graph;
+        let isRotating = false;
+        let rotationInterval;
+        
+        // Process the data
+        const nodes = [];
+        for (let i = 0; i < nodesData.length; i++) {
+            const node = nodesData[i];
+            if (!node.node_id) continue; // Skip invalid entries
+            
+            nodes.push({
+                id: node.node_id,
+                name: node.name || `Node ${node.node_id}`,
+                networkType: node.network_type || "Unknown",
+                location: node.location || "Unknown",
+                sector: node.sector || "Unknown",
+                organizationType: node.organization_type || "Unknown",
+                connectionCount: parseInt(node.connection_count) || 0,
+                funding: node.funding_usd || "N/A",
+                aiAdoption: parseFloat(node.ai_adoption_level) || 0,
+                knowledgeSharing: parseFloat(node.knowledge_sharing_index) || 0,
+                influenceScore: parseFloat(node.influence_score) || 0,
+                centrality: parseFloat(node.centrality) || 0,
+                isKeyPlayer: node.is_key_player === 'True',
+                val: (parseFloat(node.node_size) / 100) || 1, // Scale down for 3D
+                color: node.node_color || (node.network_type === "Internal" ? "#40E0D0" : "#FA8072")
+            });
+        }
+        
+        const links = [];
+        for (let i = 0; i < linksData.length; i++) {
+            const link = linksData[i];
+            if (!link.source || !link.target) continue; // Skip invalid entries
+            
+            links.push({
+                source: link.source,
+                target: link.target,
+                weight: parseFloat(link.weight) || 0.5
+            });
+        }
+        
+        // Initialize the graph
+        Graph = ForceGraph3D()
+            .graphData({ nodes, links })
+            .backgroundColor('#000000')
+            .nodeLabel(node => {
+                return `
+                    <div style="text-align: left; padding: 5px;">
+                        <strong>${node.name}</strong><br>
+                        Type: ${node.networkType}<br>
+                        Location: ${node.location}<br>
+                        Sector: ${node.sector}<br>
+                        Connections: ${node.connectionCount}<br>
+                        Influence Score: ${node.influenceScore.toFixed(2)}
+                    </div>
+                `;
+            })
+            .nodeColor(node => node.color)
+            .nodeVal(node => node.val)
+            .linkWidth(link => link.weight)
+            .linkColor(() => 'rgba(255, 255, 255, 0.2)')
+            .linkDirectionalParticles(2)
+            .linkDirectionalParticleWidth(0.8)
+            .linkDirectionalParticleSpeed(0.006)
+            .onNodeHover(node => {
+                document.getElementById('graph-container').style.cursor = node ? 'pointer' : null;
+            })
+            .onNodeClick(node => {
+                // Focus on the node
+                const distance = 40;
+                const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+                Graph.cameraPosition(
+                    { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+                    node,
+                    2000
+                );
+                
+                // Show tooltip with node details
+                const tooltip = document.getElementById('node-tooltip');
+                tooltip.innerHTML = `
+                    <strong>${node.name}</strong><br>
+                    Network Type: ${node.networkType}<br>
+                    Location: ${node.location}<br>
+                    Sector: ${node.sector}<br>
+                    Organization Type: ${node.organizationType}<br>
+                    Connection Count: ${node.connectionCount}<br>
+                    Funding: ${node.funding}<br>
+                    AI Adoption Level: ${node.aiAdoption.toFixed(2)}<br>
+                    Knowledge Sharing Index: ${node.knowledgeSharing.toFixed(2)}<br>
+                    Influence Score: ${node.influenceScore.toFixed(2)}<br>
+                    ${node.isKeyPlayer ? '<strong>Key Player</strong>' : ''}
+                `;
+                
+                tooltip.style.display = 'block';
+                tooltip.style.left = (event.pageX + 10) + 'px';
+                tooltip.style.top = (event.pageY + 10) + 'px';
+                
+                // Hide tooltip after 5 seconds
+                setTimeout(() => {
+                    tooltip.style.display = 'none';
+                }, 5000);
+            })
+            (document.getElementById('graph-container'));
+        
+        // Add event listeners for controls
+        document.getElementById('node-size').addEventListener('input', function(e) {
+            const scale = +e.target.value;
+            Graph.nodeVal(node => node.val * scale);
+        });
+        
+        document.getElementById('link-width').addEventListener('input', function(e) {
+            const scale = +e.target.value;
+            Graph.linkWidth(link => link.weight * scale);
+        });
+        
+        document.getElementById('reset-camera').addEventListener('click', function() {
+            Graph.cameraPosition({ x: 0, y: 0, z: 200 }, { x: 0, y: 0, z: 0 }, 1000);
+        });
+        
+        document.getElementById('toggle-rotation').addEventListener('click', function() {
+            isRotating = !isRotating;
+            if (isRotating) {
+                let angle = 0;
+                rotationInterval = setInterval(() => {
+                    angle += Math.PI / 300;
+                    const distance = 200;
+                    Graph.cameraPosition({
+                        x: distance * Math.sin(angle),
+                        y: 0,
+                        z: distance * Math.cos(angle)
+                    });
+                }, 30);
+            } else {
+                clearInterval(rotationInterval);
+            }
+        });
+
+        // Function to parse CSV
+        function parseCSV(csv) {
+            const lines = csv.split('\n');
+            const result = [];
+            const headers = lines[0].split(',');
+            
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i]) continue;
+                const obj = {};
+                const currentLine = lines[i].split(',');
+                
+                for (let j = 0; j < headers.length; j++) {
+                    obj[headers[j]] = currentLine[j];
+                }
+                
+                result.push(obj);
+            }
+            
+            return result;
+        }
+
+        // Load the CSV files
+        fetch('pre_conflict_network_nodes.csv')
+            .then(response => response.text())
+            .then(data => {
+                const parsedNodes = parseCSV(data);
+                
+                // Process the data
+                const nodes = parsedNodes.map(node => ({
+                    id: node.node_id,
+                    name: node.name || `Node ${node.node_id}`,
+                    networkType: node.network_type || "Unknown",
+                    location: node.location || "Unknown",
+                    sector: node.sector || "Unknown",
+                    organizationType: node.organization_type || "Unknown",
+                    connectionCount: parseInt(node.connection_count) || 0,
+                    funding: node.funding_usd || "N/A",
+                    aiAdoption: parseFloat(node.ai_adoption_level) || 0,
+                    knowledgeSharing: parseFloat(node.knowledge_sharing_index) || 0,
+                    influenceScore: parseFloat(node.influence_score) || 0,
+                    centrality: parseFloat(node.centrality) || 0,
+                    isKeyPlayer: node.is_key_player === 'True',
+                    val: (parseFloat(node.node_size) / 100) || 1, // Scale down for 3D
+                    color: node.node_color || (node.network_type === "Internal" ? "#40E0D0" : "#FA8072")
+                }));
+                
+                fetch('pre_conflict_network_edges.csv')
+                    .then(response => response.text())
+                    .then(data => {
+                        const parsedLinks = parseCSV(data);
+                        
+                        // Process the data
+                        const links = parsedLinks.map(link => ({
+                            source: link.source,
+                            target: link.target,
+                            weight: parseFloat(link.weight) || 0.5
+                        }));
+                        
+                        // Update the graph
+                        Graph.graphData({ nodes, links });
+                    });
+            });
+    </script>
+</body>
+</html>

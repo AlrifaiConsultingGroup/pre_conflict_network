@@ -1,0 +1,301 @@
+node_id,name,network_type,location,sector,organization_type,connection_count,funding_usd,ai_adoption_level,knowledge_sharing_index,influence_score,centrality,is_key_player,node_size,node_color
+0,Tartus Social Impact Industry Association 1,Internal,Tartus,Social Impact,Industry Association,39,19167,0.28,0.63,1.3,0.13043478260869565,False,752.1739130434783,#40E0D0
+1,Tartus Finance Chamber of Commerce 2,Internal,Tartus,Finance,Chamber of Commerce,19,12082,0.27,0.42,0.64,0.06354515050167224,False,417.7257525083612,#40E0D0
+2,Aleppo Manufacturing NGO 3,Internal,Aleppo,Manufacturing,NGO,6,30677,0.24,0.37,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+3,Hama Finance Cooperative 4,Internal,Hama,Finance,Cooperative,30,31672,0.14,0.48,1.0,0.10033444816053512,False,601.6722408026756,#40E0D0
+4,Damascus Agriculture Government Agency 5,Internal,Damascus,Agriculture,Government Agency,55,N/A,0.29,0.66,1.84,0.18394648829431437,True,1529.5986622073578,#40E0D0
+5,Sweden Finance Consulting Firm 6,Diaspora,Sweden,Finance,Consulting Firm,50,50594,0.52,0.72,1.67,0.16722408026755853,True,1404.1806020066888,#FA8072
+6,Sweden Manufacturing Research Institute 7,Diaspora,Sweden,Manufacturing,Research Institute,49,90870,0.56,0.55,1.64,0.16387959866220736,True,1379.0969899665552,#FA8072
+7,Aleppo Manufacturing Tech Hub 8,Internal,Aleppo,Manufacturing,Tech Hub,45,35259,0.24,0.61,1.51,0.1505016722408027,True,1278.7625418060202,#40E0D0
+8,Damascus Infrastructure Government Agency 9,Internal,Damascus,Infrastructure,Government Agency,23,45386,0.16,0.4,0.77,0.07692307692307693,False,484.61538461538464,#40E0D0
+9,Hama Social Impact Business Center 10,Internal,Hama,Social Impact,Business Center,30,9667,0.17,0.46,1.0,0.10033444816053512,False,601.6722408026756,#40E0D0
+10,Sweden Technology Foundation 11,Diaspora,Sweden,Technology,Foundation,31,76036,0.63,0.59,1.04,0.10367892976588629,False,618.3946488294314,#FA8072
+11,Latakia Finance Cooperative 12,Internal,Latakia,Finance,Cooperative,18,6480,0.29,0.39,0.6,0.06020066889632107,False,401.0033444816054,#40E0D0
+12,Hama Retail Government Agency 13,Internal,Hama,Retail,Government Agency,41,N/A,0.26,0.51,1.37,0.13712374581939799,True,1178.4280936454848,#40E0D0
+13,Latakia Retail Industry Association 14,Internal,Latakia,Retail,Industry Association,16,N/A,0.26,0.35,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+14,Sweden Retail Community Organization 15,Diaspora,Sweden,Retail,Community Organization,24,112438,0.53,0.48,0.8,0.0802675585284281,False,501.33779264214047,#FA8072
+15,Deir ez-Zor Finance Business Center 16,Internal,Deir ez-Zor,Finance,Business Center,13,23543,0.1,0.32,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+16,Homs Education Industry Association 17,Internal,Homs,Education,Industry Association,25,7736,0.15,0.51,0.84,0.08361204013377926,False,518.0602006688963,#40E0D0
+17,Tartus Technology University 18,Internal,Tartus,Technology,University,7,14119,0.31,0.28,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+18,Tartus Education Tech Hub 19,Internal,Tartus,Education,Tech Hub,18,43347,0.24,0.33,0.6,0.06020066889632107,False,401.0033444816054,#40E0D0
+19,Homs Agriculture Government Agency 20,Internal,Homs,Agriculture,Government Agency,11,49200,0.27,0.36,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+20,Hama Technology Chamber of Commerce 21,Internal,Hama,Technology,Chamber of Commerce,16,N/A,0.36,0.36,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+21,Damascus Social Impact Cooperative 22,Internal,Damascus,Social Impact,Cooperative,13,37409,0.17,0.43,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+22,Tartus Manufacturing Cooperative 23,Internal,Tartus,Manufacturing,Cooperative,26,30046,0.15,0.42,0.87,0.08695652173913043,False,534.7826086956522,#40E0D0
+23,France Professional Services Tech Company 24,Diaspora,France,Professional Services,Tech Company,12,N/A,0.57,0.35,0.4,0.04013377926421405,False,300.66889632107024,#FA8072
+24,Aleppo Technology Cooperative 25,Internal,Aleppo,Technology,Cooperative,15,8477,0.41,0.36,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+25,Latakia Agriculture Tech Hub 26,Internal,Latakia,Agriculture,Tech Hub,22,21690,0.23,0.5,0.74,0.07357859531772575,False,467.8929765886287,#40E0D0
+26,UAE Technology Consulting Firm 27,Diaspora,UAE,Technology,Consulting Firm,15,99182,0.65,0.5,0.5,0.05016722408026756,False,350.8361204013378,#FA8072
+27,UK Agriculture Community Organization 28,Diaspora,UK,Agriculture,Community Organization,22,106953,0.6,0.39,0.74,0.07357859531772575,False,467.8929765886287,#FA8072
+28,Deir ez-Zor Education Tech Hub 29,Internal,Deir ez-Zor,Education,Tech Hub,13,N/A,0.24,0.47,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+29,Hama Professional Services University 30,Internal,Hama,Professional Services,University,16,N/A,0.12,0.48,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+30,Hama Manufacturing Tech Hub 31,Internal,Hama,Manufacturing,Tech Hub,20,N/A,0.23,0.45,0.67,0.06688963210702341,False,434.44816053511704,#40E0D0
+31,France Agriculture Foundation 32,Diaspora,France,Agriculture,Foundation,20,108200,0.53,0.36,0.67,0.06688963210702341,False,434.44816053511704,#FA8072
+32,Tartus Technology Tech Hub 33,Internal,Tartus,Technology,Tech Hub,6,20436,0.48,0.35,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+33,UK Social Impact Startup 34,Diaspora,UK,Social Impact,Startup,16,43407,0.56,0.44,0.54,0.05351170568561873,False,367.55852842809367,#FA8072
+34,Homs Social Impact Incubator 35,Internal,Homs,Social Impact,Incubator,25,N/A,0.18,0.42,0.84,0.08361204013377926,False,518.0602006688963,#40E0D0
+35,Tartus Agriculture Incubator 36,Internal,Tartus,Agriculture,Incubator,16,34580,0.24,0.41,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+36,Hama Social Impact Industry Association 37,Internal,Hama,Social Impact,Industry Association,13,6091,0.23,0.33,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+37,Aleppo Social Impact Tech Hub 38,Internal,Aleppo,Social Impact,Tech Hub,10,36122,0.23,0.39,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+38,Tartus Technology Tech Hub 39,Internal,Tartus,Technology,Tech Hub,10,6544,0.43,0.39,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+39,Aleppo Retail NGO 40,Internal,Aleppo,Retail,NGO,13,N/A,0.22,0.41,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+40,Damascus Agriculture Industry Association 41,Internal,Damascus,Agriculture,Industry Association,6,N/A,0.2,0.28,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+41,UK Healthcare Foundation 42,Diaspora,UK,Healthcare,Foundation,10,N/A,0.46,0.31,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+42,Hama Professional Services Tech Hub 43,Internal,Hama,Professional Services,Tech Hub,14,N/A,0.24,0.41,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+43,Tartus Social Impact University 44,Internal,Tartus,Social Impact,University,14,41525,0.17,0.36,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+44,Damascus Healthcare Business Center 45,Internal,Damascus,Healthcare,Business Center,11,12333,0.3,0.41,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+45,Germany Finance Tech Company 46,Diaspora,Germany,Finance,Tech Company,19,97164,0.57,0.43,0.64,0.06354515050167224,False,417.7257525083612,#FA8072
+46,Homs Retail Tech Hub 47,Internal,Homs,Retail,Tech Hub,11,41003,0.27,0.37,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+47,Jordan Healthcare Business Network 48,Diaspora,Jordan,Healthcare,Business Network,10,84252,0.49,0.39,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+48,Deir ez-Zor Finance Cooperative 49,Internal,Deir ez-Zor,Finance,Cooperative,14,N/A,0.23,0.48,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+49,Damascus Social Impact Tech Hub 50,Internal,Damascus,Social Impact,Tech Hub,14,N/A,0.14,0.29,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+50,Aleppo Technology Government Agency 51,Internal,Aleppo,Technology,Government Agency,11,9428,0.31,0.3,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+51,Latakia Social Impact University 52,Internal,Latakia,Social Impact,University,12,34363,0.17,0.35,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+52,Canada Healthcare Investment Fund 53,Diaspora,Canada,Healthcare,Investment Fund,8,109357,0.41,0.41,0.27,0.026755852842809364,False,233.77926421404683,#FA8072
+53,Aleppo Education Tech Hub 54,Internal,Aleppo,Education,Tech Hub,9,N/A,0.13,0.28,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+54,Deir ez-Zor Manufacturing NGO 55,Internal,Deir ez-Zor,Manufacturing,NGO,11,16421,0.12,0.31,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+55,Damascus Healthcare Incubator 56,Internal,Damascus,Healthcare,Incubator,13,28882,0.22,0.43,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+56,Homs Social Impact Industry Association 57,Internal,Homs,Social Impact,Industry Association,20,N/A,0.18,0.35,0.67,0.06688963210702341,False,434.44816053511704,#40E0D0
+57,USA Social Impact Startup 58,Diaspora,USA,Social Impact,Startup,7,121202,0.51,0.42,0.23,0.023411371237458192,False,217.05685618729098,#FA8072
+58,Latakia Infrastructure Chamber of Commerce 59,Internal,Latakia,Infrastructure,Chamber of Commerce,11,N/A,0.25,0.36,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+59,Deir ez-Zor Retail NGO 60,Internal,Deir ez-Zor,Retail,NGO,18,N/A,0.3,0.36,0.6,0.06020066889632107,False,401.0033444816054,#40E0D0
+60,France Infrastructure Consulting Firm 61,Diaspora,France,Infrastructure,Consulting Firm,12,144242,0.46,0.38,0.4,0.04013377926421405,False,300.66889632107024,#FA8072
+61,Hama Finance Chamber of Commerce 62,Internal,Hama,Finance,Chamber of Commerce,18,36857,0.24,0.38,0.6,0.06020066889632107,False,401.0033444816054,#40E0D0
+62,Deir ez-Zor Finance Tech Hub 63,Internal,Deir ez-Zor,Finance,Tech Hub,11,44261,0.25,0.39,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+63,Lebanon Finance Business Network 64,Diaspora,Lebanon,Finance,Business Network,7,109038,0.4,0.37,0.23,0.023411371237458192,False,217.05685618729098,#FA8072
+64,Canada Finance Research Institute 65,Diaspora,Canada,Finance,Research Institute,9,65685,0.57,0.35,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+65,Latakia Social Impact Research Center 66,Internal,Latakia,Social Impact,Research Center,10,40747,0.11,0.42,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+66,Deir ez-Zor Manufacturing Tech Hub 67,Internal,Deir ez-Zor,Manufacturing,Tech Hub,8,46161,0.18,0.35,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+67,Tartus Healthcare Chamber of Commerce 68,Internal,Tartus,Healthcare,Chamber of Commerce,15,24382,0.12,0.33,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+68,Deir ez-Zor Technology University 69,Internal,Deir ez-Zor,Technology,University,8,45274,0.33,0.32,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+69,Tartus Education Tech Hub 70,Internal,Tartus,Education,Tech Hub,13,49039,0.24,0.34,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+70,UK Healthcare Foundation 71,Diaspora,UK,Healthcare,Foundation,17,119232,0.42,0.49,0.57,0.056856187290969896,False,384.2809364548495,#FA8072
+71,Tartus Infrastructure Government Agency 72,Internal,Tartus,Infrastructure,Government Agency,20,25651,0.23,0.36,0.67,0.06688963210702341,False,434.44816053511704,#40E0D0
+72,Homs Finance Chamber of Commerce 73,Internal,Homs,Finance,Chamber of Commerce,10,N/A,0.21,0.31,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+73,UAE Finance Investment Fund 74,Diaspora,UAE,Finance,Investment Fund,16,138206,0.53,0.42,0.54,0.05351170568561873,False,367.55852842809367,#FA8072
+74,Hama Social Impact Research Center 75,Internal,Hama,Social Impact,Research Center,14,N/A,0.11,0.41,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+75,Deir ez-Zor Finance Research Center 76,Internal,Deir ez-Zor,Finance,Research Center,17,N/A,0.13,0.42,0.57,0.056856187290969896,False,384.2809364548495,#40E0D0
+76,Damascus Finance University 77,Internal,Damascus,Finance,University,9,N/A,0.21,0.27,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+77,Hama Retail Cooperative 78,Internal,Hama,Retail,Cooperative,16,N/A,0.19,0.46,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+78,Tartus Infrastructure Industry Association 79,Internal,Tartus,Infrastructure,Industry Association,15,32763,0.27,0.41,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+79,Deir ez-Zor Agriculture Tech Hub 80,Internal,Deir ez-Zor,Agriculture,Tech Hub,15,5191,0.16,0.5,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+80,Hama Manufacturing Business Center 81,Internal,Hama,Manufacturing,Business Center,14,34640,0.28,0.49,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+81,Tartus Finance Government Agency 82,Internal,Tartus,Finance,Government Agency,17,39067,0.14,0.5,0.57,0.056856187290969896,False,384.2809364548495,#40E0D0
+82,Sweden Finance Tech Company 83,Diaspora,Sweden,Finance,Tech Company,9,27159,0.54,0.29,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+83,Deir ez-Zor Infrastructure Business Center 84,Internal,Deir ez-Zor,Infrastructure,Business Center,8,N/A,0.14,0.38,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+84,Germany Finance Startup 85,Diaspora,Germany,Finance,Startup,6,N/A,0.51,0.27,0.2,0.020066889632107024,False,200.33444816053512,#FA8072
+85,Homs Finance Business Center 86,Internal,Homs,Finance,Business Center,8,12916,0.22,0.37,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+86,Deir ez-Zor Retail Government Agency 87,Internal,Deir ez-Zor,Retail,Government Agency,16,N/A,0.3,0.48,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+87,Canada Social Impact Startup 88,Diaspora,Canada,Social Impact,Startup,10,N/A,0.54,0.29,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+88,Homs Social Impact Business Center 89,Internal,Homs,Social Impact,Business Center,11,28923,0.26,0.31,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+89,Aleppo Professional Services Industry Association 90,Internal,Aleppo,Professional Services,Industry Association,14,N/A,0.16,0.45,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+90,Tartus Finance University 91,Internal,Tartus,Finance,University,7,9036,0.24,0.36,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+91,Canada Healthcare Business Network 92,Diaspora,Canada,Healthcare,Business Network,12,N/A,0.48,0.41,0.4,0.04013377926421405,False,300.66889632107024,#FA8072
+92,Turkey Social Impact Foundation 93,Diaspora,Turkey,Social Impact,Foundation,4,N/A,0.57,0.36,0.13,0.013377926421404682,False,166.88963210702343,#FA8072
+93,Damascus Agriculture Tech Hub 94,Internal,Damascus,Agriculture,Tech Hub,17,19766,0.17,0.33,0.57,0.056856187290969896,False,384.2809364548495,#40E0D0
+94,Deir ez-Zor Social Impact Cooperative 95,Internal,Deir ez-Zor,Social Impact,Cooperative,11,43427,0.24,0.35,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+95,Aleppo Retail Cooperative 96,Internal,Aleppo,Retail,Cooperative,14,17758,0.21,0.48,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+96,Aleppo Education Government Agency 97,Internal,Aleppo,Education,Government Agency,9,38548,0.24,0.31,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+97,Hama Education NGO 98,Internal,Hama,Education,NGO,14,N/A,0.28,0.4,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+98,France Agriculture Research Institute 99,Diaspora,France,Agriculture,Research Institute,15,127689,0.53,0.47,0.5,0.05016722408026756,False,350.8361204013378,#FA8072
+99,Hama Agriculture Incubator 100,Internal,Hama,Agriculture,Incubator,15,36015,0.22,0.48,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+100,UAE Education Business Network 101,Diaspora,UAE,Education,Business Network,14,46813,0.46,0.42,0.47,0.046822742474916385,False,334.11371237458195,#FA8072
+101,Deir ez-Zor Retail Business Center 102,Internal,Deir ez-Zor,Retail,Business Center,13,37979,0.2,0.41,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+102,Latakia Professional Services Research Center 103,Internal,Latakia,Professional Services,Research Center,16,38598,0.24,0.35,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+103,Turkey Healthcare Research Institute 104,Diaspora,Turkey,Healthcare,Research Institute,11,N/A,0.44,0.28,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+104,Hama Infrastructure Incubator 105,Internal,Hama,Infrastructure,Incubator,11,N/A,0.12,0.37,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+105,Damascus Professional Services Industry Association 106,Internal,Damascus,Professional Services,Industry Association,11,N/A,0.22,0.37,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+106,Germany Technology Diaspora Association 107,Diaspora,Germany,Technology,Diaspora Association,13,69657,0.8,0.41,0.43,0.043478260869565216,False,317.3913043478261,#FA8072
+107,Tartus Healthcare Cooperative 108,Internal,Tartus,Healthcare,Cooperative,11,23021,0.25,0.37,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+108,Deir ez-Zor Professional Services Incubator 109,Internal,Deir ez-Zor,Professional Services,Incubator,12,N/A,0.26,0.33,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+109,Aleppo Infrastructure Cooperative 110,Internal,Aleppo,Infrastructure,Cooperative,8,8884,0.27,0.4,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+110,Homs Healthcare Business Center 111,Internal,Homs,Healthcare,Business Center,16,19612,0.15,0.38,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+111,Tartus Manufacturing University 112,Internal,Tartus,Manufacturing,University,7,N/A,0.11,0.37,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+112,Tartus Healthcare Government Agency 113,Internal,Tartus,Healthcare,Government Agency,11,41243,0.17,0.33,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+113,Latakia Agriculture Government Agency 114,Internal,Latakia,Agriculture,Government Agency,12,8508,0.18,0.29,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+114,Deir ez-Zor Agriculture University 115,Internal,Deir ez-Zor,Agriculture,University,10,34953,0.27,0.4,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+115,Hama Finance Incubator 116,Internal,Hama,Finance,Incubator,14,42685,0.13,0.44,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+116,Damascus Finance Business Center 117,Internal,Damascus,Finance,Business Center,13,22751,0.15,0.41,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+117,Homs Social Impact Tech Hub 118,Internal,Homs,Social Impact,Tech Hub,12,41924,0.12,0.45,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+118,Tartus Social Impact Cooperative 119,Internal,Tartus,Social Impact,Cooperative,10,48817,0.28,0.38,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+119,Aleppo Retail Chamber of Commerce 120,Internal,Aleppo,Retail,Chamber of Commerce,11,14615,0.23,0.43,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+120,Deir ez-Zor Infrastructure Cooperative 121,Internal,Deir ez-Zor,Infrastructure,Cooperative,9,N/A,0.24,0.35,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+121,Tartus Education Cooperative 122,Internal,Tartus,Education,Cooperative,12,22228,0.26,0.35,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+122,Germany Infrastructure Tech Company 123,Diaspora,Germany,Infrastructure,Tech Company,10,129983,0.47,0.33,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+123,Hama Infrastructure Chamber of Commerce 124,Internal,Hama,Infrastructure,Chamber of Commerce,11,13823,0.24,0.38,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+124,Homs Manufacturing Industry Association 125,Internal,Homs,Manufacturing,Industry Association,9,6125,0.28,0.38,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+125,UAE Infrastructure Business Network 126,Diaspora,UAE,Infrastructure,Business Network,10,98151,0.46,0.28,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+126,UAE Agriculture Foundation 127,Diaspora,UAE,Agriculture,Foundation,8,105930,0.59,0.32,0.27,0.026755852842809364,False,233.77926421404683,#FA8072
+127,Aleppo Social Impact Government Agency 128,Internal,Aleppo,Social Impact,Government Agency,11,13683,0.25,0.47,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+128,Homs Finance University 129,Internal,Homs,Finance,University,12,12575,0.13,0.34,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+129,Hama Technology Incubator 130,Internal,Hama,Technology,Incubator,11,N/A,0.44,0.33,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+130,Latakia Infrastructure University 131,Internal,Latakia,Infrastructure,University,8,34839,0.28,0.26,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+131,Tartus Agriculture Government Agency 132,Internal,Tartus,Agriculture,Government Agency,11,36293,0.11,0.41,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+132,Jordan Education Investment Fund 133,Diaspora,Jordan,Education,Investment Fund,10,146198,0.52,0.4,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+133,Latakia Retail Incubator 134,Internal,Latakia,Retail,Incubator,12,29433,0.13,0.48,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+134,Aleppo Professional Services Government Agency 135,Internal,Aleppo,Professional Services,Government Agency,10,49720,0.29,0.45,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+135,Aleppo Manufacturing University 136,Internal,Aleppo,Manufacturing,University,9,N/A,0.21,0.32,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+136,Lebanon Finance Startup 137,Diaspora,Lebanon,Finance,Startup,11,70438,0.55,0.39,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+137,Hama Professional Services Business Center 138,Internal,Hama,Professional Services,Business Center,9,11534,0.26,0.38,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+138,Damascus Professional Services Government Agency 139,Internal,Damascus,Professional Services,Government Agency,5,N/A,0.24,0.28,0.17,0.016722408026755852,False,183.61204013377926,#40E0D0
+139,Latakia Technology Cooperative 140,Internal,Latakia,Technology,Cooperative,10,48124,0.48,0.42,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+140,USA Finance Investment Fund 141,Diaspora,USA,Finance,Investment Fund,6,N/A,0.44,0.3,0.2,0.020066889632107024,False,200.33444816053512,#FA8072
+141,Deir ez-Zor Agriculture Research Center 142,Internal,Deir ez-Zor,Agriculture,Research Center,13,45989,0.1,0.3,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+142,UAE Social Impact Diaspora Association 143,Diaspora,UAE,Social Impact,Diaspora Association,9,61310,0.56,0.43,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+143,Turkey Technology Business Network 144,Diaspora,Turkey,Technology,Business Network,9,124993,0.69,0.28,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+144,Homs Healthcare Incubator 145,Internal,Homs,Healthcare,Incubator,11,38801,0.23,0.41,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+145,Homs Healthcare Cooperative 146,Internal,Homs,Healthcare,Cooperative,13,20670,0.27,0.43,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+146,Jordan Agriculture Business Network 147,Diaspora,Jordan,Agriculture,Business Network,17,N/A,0.43,0.41,0.57,0.056856187290969896,False,384.2809364548495,#FA8072
+147,Canada Social Impact Business Network 148,Diaspora,Canada,Social Impact,Business Network,11,64752,0.57,0.39,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+148,Latakia Healthcare University 149,Internal,Latakia,Healthcare,University,10,N/A,0.16,0.39,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+149,Latakia Technology Industry Association 150,Internal,Latakia,Technology,Industry Association,11,46189,0.46,0.34,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+150,UAE Professional Services Business Network 151,Diaspora,UAE,Professional Services,Business Network,10,126479,0.51,0.37,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+151,Latakia Agriculture Industry Association 152,Internal,Latakia,Agriculture,Industry Association,14,8692,0.29,0.47,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+152,Homs Finance Cooperative 153,Internal,Homs,Finance,Cooperative,12,N/A,0.25,0.37,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+153,Hama Agriculture University 154,Internal,Hama,Agriculture,University,10,30491,0.13,0.44,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+154,Damascus Technology Tech Hub 155,Internal,Damascus,Technology,Tech Hub,10,31935,0.45,0.34,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+155,Sweden Education Community Organization 156,Diaspora,Sweden,Education,Community Organization,11,N/A,0.45,0.33,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+156,Hama Agriculture NGO 157,Internal,Hama,Agriculture,NGO,12,28992,0.2,0.45,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+157,Aleppo Technology Business Center 158,Internal,Aleppo,Technology,Business Center,8,10097,0.41,0.29,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+158,Aleppo Retail Chamber of Commerce 159,Internal,Aleppo,Retail,Chamber of Commerce,12,N/A,0.12,0.4,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+159,Hama Technology Incubator 160,Internal,Hama,Technology,Incubator,9,N/A,0.44,0.27,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+160,Latakia Education Tech Hub 161,Internal,Latakia,Education,Tech Hub,11,30139,0.26,0.41,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+161,Hama Healthcare Chamber of Commerce 162,Internal,Hama,Healthcare,Chamber of Commerce,15,14988,0.22,0.37,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+162,USA Manufacturing Tech Company 163,Diaspora,USA,Manufacturing,Tech Company,14,54168,0.56,0.38,0.47,0.046822742474916385,False,334.11371237458195,#FA8072
+163,Homs Finance Research Center 164,Internal,Homs,Finance,Research Center,13,N/A,0.11,0.36,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+164,Aleppo Infrastructure Incubator 165,Internal,Aleppo,Infrastructure,Incubator,9,21753,0.19,0.35,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+165,Aleppo Healthcare Industry Association 166,Internal,Aleppo,Healthcare,Industry Association,13,N/A,0.2,0.3,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+166,Tartus Retail Tech Hub 167,Internal,Tartus,Retail,Tech Hub,7,28308,0.3,0.31,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+167,Homs Healthcare University 168,Internal,Homs,Healthcare,University,9,28594,0.22,0.35,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+168,USA Healthcare Tech Company 169,Diaspora,USA,Healthcare,Tech Company,14,94782,0.41,0.35,0.47,0.046822742474916385,False,334.11371237458195,#FA8072
+169,Deir ez-Zor Social Impact Industry Association 170,Internal,Deir ez-Zor,Social Impact,Industry Association,9,47389,0.14,0.43,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+170,UK Social Impact Investment Fund 171,Diaspora,UK,Social Impact,Investment Fund,10,81124,0.41,0.34,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+171,Sweden Education Consulting Firm 172,Diaspora,Sweden,Education,Consulting Firm,8,37048,0.42,0.4,0.27,0.026755852842809364,False,233.77926421404683,#FA8072
+172,Homs Finance University 173,Internal,Homs,Finance,University,11,11120,0.17,0.41,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+173,Tartus Retail Tech Hub 174,Internal,Tartus,Retail,Tech Hub,11,N/A,0.18,0.38,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+174,Aleppo Professional Services Chamber of Commerce 175,Internal,Aleppo,Professional Services,Chamber of Commerce,8,29197,0.28,0.45,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+175,Latakia Education Cooperative 176,Internal,Latakia,Education,Cooperative,6,46526,0.21,0.31,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+176,Tartus Social Impact Government Agency 177,Internal,Tartus,Social Impact,Government Agency,8,27900,0.25,0.44,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+177,Hama Technology Cooperative 178,Internal,Hama,Technology,Cooperative,12,39746,0.33,0.38,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+178,Tartus Infrastructure Government Agency 179,Internal,Tartus,Infrastructure,Government Agency,13,N/A,0.21,0.3,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+179,Tartus Retail Industry Association 180,Internal,Tartus,Retail,Industry Association,8,N/A,0.2,0.29,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+180,Deir ez-Zor Technology NGO 181,Internal,Deir ez-Zor,Technology,NGO,8,39730,0.3,0.43,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+181,Sweden Professional Services Tech Company 182,Diaspora,Sweden,Professional Services,Tech Company,17,39092,0.57,0.49,0.57,0.056856187290969896,False,384.2809364548495,#FA8072
+182,Germany Healthcare Foundation 183,Diaspora,Germany,Healthcare,Foundation,7,109633,0.54,0.36,0.23,0.023411371237458192,False,217.05685618729098,#FA8072
+183,Homs Retail University 184,Internal,Homs,Retail,University,12,11914,0.1,0.28,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+184,Deir ez-Zor Social Impact Chamber of Commerce 185,Internal,Deir ez-Zor,Social Impact,Chamber of Commerce,11,N/A,0.23,0.31,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+185,Deir ez-Zor Professional Services Government Agency 186,Internal,Deir ez-Zor,Professional Services,Government Agency,13,8643,0.17,0.45,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+186,Latakia Education Business Center 187,Internal,Latakia,Education,Business Center,16,46366,0.1,0.36,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+187,Lebanon Infrastructure Community Organization 188,Diaspora,Lebanon,Infrastructure,Community Organization,10,98975,0.57,0.4,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+188,Aleppo Technology Industry Association 189,Internal,Aleppo,Technology,Industry Association,10,39772,0.49,0.34,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+189,Aleppo Education NGO 190,Internal,Aleppo,Education,NGO,7,N/A,0.15,0.26,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+190,Deir ez-Zor Agriculture Incubator 191,Internal,Deir ez-Zor,Agriculture,Incubator,9,N/A,0.25,0.45,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+191,Latakia Social Impact Business Center 192,Internal,Latakia,Social Impact,Business Center,11,32007,0.27,0.39,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+192,Deir ez-Zor Retail Incubator 193,Internal,Deir ez-Zor,Retail,Incubator,10,46744,0.12,0.35,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+193,Latakia Healthcare Chamber of Commerce 194,Internal,Latakia,Healthcare,Chamber of Commerce,8,37134,0.16,0.44,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+194,Latakia Technology Research Center 195,Internal,Latakia,Technology,Research Center,9,N/A,0.46,0.35,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+195,Hama Social Impact Government Agency 196,Internal,Hama,Social Impact,Government Agency,12,38661,0.14,0.35,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+196,Latakia Manufacturing Business Center 197,Internal,Latakia,Manufacturing,Business Center,7,29767,0.12,0.35,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+197,Deir ez-Zor Education Government Agency 198,Internal,Deir ez-Zor,Education,Government Agency,7,37743,0.11,0.25,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+198,Deir ez-Zor Healthcare University 199,Internal,Deir ez-Zor,Healthcare,University,10,12649,0.13,0.35,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+199,Turkey Social Impact Consulting Firm 200,Diaspora,Turkey,Social Impact,Consulting Firm,9,122674,0.41,0.44,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+200,Lebanon Professional Services Foundation 201,Diaspora,Lebanon,Professional Services,Foundation,17,128508,0.45,0.43,0.57,0.056856187290969896,False,384.2809364548495,#FA8072
+201,Latakia Manufacturing Industry Association 202,Internal,Latakia,Manufacturing,Industry Association,17,36251,0.27,0.32,0.57,0.056856187290969896,False,384.2809364548495,#40E0D0
+202,Sweden Infrastructure Tech Company 203,Diaspora,Sweden,Infrastructure,Tech Company,16,128741,0.56,0.46,0.54,0.05351170568561873,False,367.55852842809367,#FA8072
+203,Tartus Healthcare University 204,Internal,Tartus,Healthcare,University,6,N/A,0.17,0.35,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+204,Tartus Healthcare Chamber of Commerce 205,Internal,Tartus,Healthcare,Chamber of Commerce,4,30306,0.12,0.32,0.13,0.013377926421404682,False,166.88963210702343,#40E0D0
+205,Damascus Retail University 206,Internal,Damascus,Retail,University,9,N/A,0.15,0.32,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+206,USA Manufacturing Consulting Firm 207,Diaspora,USA,Manufacturing,Consulting Firm,10,45584,0.54,0.45,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+207,Deir ez-Zor Agriculture NGO 208,Internal,Deir ez-Zor,Agriculture,NGO,7,14301,0.28,0.41,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+208,Damascus Professional Services Chamber of Commerce 209,Internal,Damascus,Professional Services,Chamber of Commerce,11,27628,0.22,0.47,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+209,Homs Healthcare University 210,Internal,Homs,Healthcare,University,8,N/A,0.23,0.28,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+210,Aleppo Finance Incubator 211,Internal,Aleppo,Finance,Incubator,10,35339,0.23,0.32,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+211,Deir ez-Zor Agriculture Incubator 212,Internal,Deir ez-Zor,Agriculture,Incubator,12,15129,0.1,0.3,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+212,Damascus Healthcare Incubator 213,Internal,Damascus,Healthcare,Incubator,9,39341,0.18,0.35,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+213,Homs Retail Cooperative 214,Internal,Homs,Retail,Cooperative,10,15958,0.14,0.42,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+214,Aleppo Retail Research Center 215,Internal,Aleppo,Retail,Research Center,13,24613,0.22,0.33,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+215,Latakia Manufacturing Industry Association 216,Internal,Latakia,Manufacturing,Industry Association,7,N/A,0.25,0.33,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+216,Hama Technology University 217,Internal,Hama,Technology,University,8,N/A,0.44,0.42,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+217,Sweden Infrastructure Business Network 218,Diaspora,Sweden,Infrastructure,Business Network,10,N/A,0.53,0.32,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+218,Latakia Agriculture Cooperative 219,Internal,Latakia,Agriculture,Cooperative,9,N/A,0.22,0.43,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+219,France Finance Tech Company 220,Diaspora,France,Finance,Tech Company,10,144182,0.48,0.36,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+220,Aleppo Agriculture Government Agency 221,Internal,Aleppo,Agriculture,Government Agency,14,17944,0.15,0.39,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+221,Hama Education University 222,Internal,Hama,Education,University,15,35425,0.25,0.33,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+222,Deir ez-Zor Healthcare Government Agency 223,Internal,Deir ez-Zor,Healthcare,Government Agency,8,N/A,0.19,0.32,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+223,Hama Professional Services Cooperative 224,Internal,Hama,Professional Services,Cooperative,13,24996,0.25,0.44,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+224,Hama Manufacturing Cooperative 225,Internal,Hama,Manufacturing,Cooperative,14,23031,0.23,0.33,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+225,Aleppo Technology Business Center 226,Internal,Aleppo,Technology,Business Center,7,N/A,0.35,0.33,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+226,Homs Social Impact Chamber of Commerce 227,Internal,Homs,Social Impact,Chamber of Commerce,9,N/A,0.14,0.46,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+227,Aleppo Education Incubator 228,Internal,Aleppo,Education,Incubator,7,26816,0.24,0.29,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+228,Deir ez-Zor Professional Services University 229,Internal,Deir ez-Zor,Professional Services,University,8,N/A,0.25,0.36,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+229,USA Manufacturing Community Organization 230,Diaspora,USA,Manufacturing,Community Organization,13,64749,0.52,0.41,0.43,0.043478260869565216,False,317.3913043478261,#FA8072
+230,Deir ez-Zor Education Research Center 231,Internal,Deir ez-Zor,Education,Research Center,6,12408,0.14,0.4,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+231,Damascus Manufacturing Research Center 232,Internal,Damascus,Manufacturing,Research Center,12,28948,0.23,0.38,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+232,Damascus Infrastructure Business Center 233,Internal,Damascus,Infrastructure,Business Center,8,N/A,0.17,0.41,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+233,Deir ez-Zor Manufacturing University 234,Internal,Deir ez-Zor,Manufacturing,University,11,28177,0.15,0.33,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+234,Homs Agriculture NGO 235,Internal,Homs,Agriculture,NGO,6,31542,0.17,0.36,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+235,Tartus Education Government Agency 236,Internal,Tartus,Education,Government Agency,10,N/A,0.17,0.34,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+236,Deir ez-Zor Social Impact University 237,Internal,Deir ez-Zor,Social Impact,University,12,29290,0.11,0.41,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+237,Damascus Agriculture Tech Hub 238,Internal,Damascus,Agriculture,Tech Hub,13,22354,0.16,0.29,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+238,Aleppo Retail University 239,Internal,Aleppo,Retail,University,14,N/A,0.24,0.36,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+239,Latakia Healthcare Industry Association 240,Internal,Latakia,Healthcare,Industry Association,13,41281,0.1,0.41,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+240,Aleppo Education Industry Association 241,Internal,Aleppo,Education,Industry Association,14,N/A,0.18,0.34,0.47,0.046822742474916385,False,334.11371237458195,#40E0D0
+241,Homs Agriculture Incubator 242,Internal,Homs,Agriculture,Incubator,8,9024,0.19,0.3,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+242,Damascus Retail Cooperative 243,Internal,Damascus,Retail,Cooperative,10,17186,0.19,0.45,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+243,Damascus Education Industry Association 244,Internal,Damascus,Education,Industry Association,9,21860,0.25,0.44,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+244,Tartus Education Incubator 245,Internal,Tartus,Education,Incubator,7,N/A,0.25,0.42,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+245,Homs Retail University 246,Internal,Homs,Retail,University,7,43998,0.27,0.43,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+246,France Finance Tech Company 247,Diaspora,France,Finance,Tech Company,6,59021,0.45,0.4,0.2,0.020066889632107024,False,200.33444816053512,#FA8072
+247,Aleppo Finance NGO 248,Internal,Aleppo,Finance,NGO,15,N/A,0.2,0.47,0.5,0.05016722408026756,False,350.8361204013378,#40E0D0
+248,Deir ez-Zor Finance Research Center 249,Internal,Deir ez-Zor,Finance,Research Center,10,41957,0.21,0.38,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+249,Homs Infrastructure Chamber of Commerce 250,Internal,Homs,Infrastructure,Chamber of Commerce,10,6728,0.25,0.45,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+250,Damascus Technology Business Center 251,Internal,Damascus,Technology,Business Center,16,43767,0.42,0.33,0.54,0.05351170568561873,False,367.55852842809367,#40E0D0
+251,Latakia Retail NGO 252,Internal,Latakia,Retail,NGO,8,23334,0.17,0.37,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+252,USA Technology Community Organization 253,Diaspora,USA,Technology,Community Organization,15,96616,0.68,0.49,0.5,0.05016722408026756,False,350.8361204013378,#FA8072
+253,Sweden Manufacturing Diaspora Association 254,Diaspora,Sweden,Manufacturing,Diaspora Association,10,N/A,0.44,0.38,0.33,0.033444816053511704,False,267.2240802675585,#FA8072
+254,Turkey Technology Diaspora Association 255,Diaspora,Turkey,Technology,Diaspora Association,7,121761,0.67,0.29,0.23,0.023411371237458192,False,217.05685618729098,#FA8072
+255,Deir ez-Zor Healthcare Chamber of Commerce 256,Internal,Deir ez-Zor,Healthcare,Chamber of Commerce,11,18509,0.19,0.44,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+256,Damascus Education University 257,Internal,Damascus,Education,University,13,N/A,0.13,0.36,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+257,Deir ez-Zor Retail Tech Hub 258,Internal,Deir ez-Zor,Retail,Tech Hub,11,11224,0.25,0.3,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+258,Latakia Agriculture Incubator 259,Internal,Latakia,Agriculture,Incubator,9,28910,0.21,0.34,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+259,Jordan Social Impact Business Network 260,Diaspora,Jordan,Social Impact,Business Network,9,69537,0.49,0.32,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+260,Tartus Retail Government Agency 261,Internal,Tartus,Retail,Government Agency,7,9485,0.15,0.44,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+261,USA Education Research Institute 262,Diaspora,USA,Education,Research Institute,11,35987,0.58,0.46,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+262,Tartus Infrastructure University 263,Internal,Tartus,Infrastructure,University,8,15423,0.24,0.35,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+263,Aleppo Infrastructure Incubator 264,Internal,Aleppo,Infrastructure,Incubator,7,N/A,0.19,0.4,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+264,Tartus Social Impact University 265,Internal,Tartus,Social Impact,University,10,N/A,0.18,0.37,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+265,Tartus Retail Cooperative 266,Internal,Tartus,Retail,Cooperative,11,35940,0.2,0.29,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+266,Deir ez-Zor Retail University 267,Internal,Deir ez-Zor,Retail,University,6,43661,0.19,0.43,0.2,0.020066889632107024,False,200.33444816053512,#40E0D0
+267,Canada Technology Foundation 268,Diaspora,Canada,Technology,Foundation,9,38610,0.74,0.39,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+268,USA Professional Services Foundation 269,Diaspora,USA,Professional Services,Foundation,8,99104,0.57,0.31,0.27,0.026755852842809364,False,233.77926421404683,#FA8072
+269,Aleppo Social Impact Incubator 270,Internal,Aleppo,Social Impact,Incubator,10,10491,0.12,0.34,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+270,Homs Professional Services Cooperative 271,Internal,Homs,Professional Services,Cooperative,10,N/A,0.13,0.42,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+271,Damascus Professional Services Industry Association 272,Internal,Damascus,Professional Services,Industry Association,10,N/A,0.23,0.27,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+272,Aleppo Manufacturing University 273,Internal,Aleppo,Manufacturing,University,9,29204,0.25,0.37,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+273,Sweden Healthcare Business Network 274,Diaspora,Sweden,Healthcare,Business Network,9,71413,0.48,0.3,0.3,0.030100334448160536,False,250.5016722408027,#FA8072
+274,UAE Retail Research Institute 275,Diaspora,UAE,Retail,Research Institute,6,N/A,0.42,0.37,0.2,0.020066889632107024,False,200.33444816053512,#FA8072
+275,Homs Finance Cooperative 276,Internal,Homs,Finance,Cooperative,8,N/A,0.14,0.25,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+276,Deir ez-Zor Finance Government Agency 277,Internal,Deir ez-Zor,Finance,Government Agency,7,N/A,0.19,0.31,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+277,Latakia Infrastructure Chamber of Commerce 278,Internal,Latakia,Infrastructure,Chamber of Commerce,10,N/A,0.2,0.29,0.33,0.033444816053511704,False,267.2240802675585,#40E0D0
+278,Homs Healthcare Incubator 279,Internal,Homs,Healthcare,Incubator,8,N/A,0.29,0.3,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+279,Homs Technology Government Agency 280,Internal,Homs,Technology,Government Agency,9,N/A,0.39,0.36,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+280,Latakia Technology Tech Hub 281,Internal,Latakia,Technology,Tech Hub,4,27056,0.3,0.37,0.13,0.013377926421404682,False,166.88963210702343,#40E0D0
+281,Damascus Manufacturing Industry Association 282,Internal,Damascus,Manufacturing,Industry Association,8,49156,0.17,0.36,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+282,Latakia Healthcare Business Center 283,Internal,Latakia,Healthcare,Business Center,8,N/A,0.18,0.38,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+283,Aleppo Education Industry Association 284,Internal,Aleppo,Education,Industry Association,9,N/A,0.15,0.31,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+284,Damascus Infrastructure University 285,Internal,Damascus,Infrastructure,University,12,5917,0.23,0.45,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+285,Tartus Manufacturing Cooperative 286,Internal,Tartus,Manufacturing,Cooperative,12,18785,0.16,0.44,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+286,Damascus Technology Business Center 287,Internal,Damascus,Technology,Business Center,13,49983,0.33,0.47,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+287,Hama Manufacturing Incubator 288,Internal,Hama,Manufacturing,Incubator,7,41136,0.12,0.29,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+288,Latakia Healthcare Business Center 289,Internal,Latakia,Healthcare,Business Center,11,38158,0.22,0.43,0.37,0.03678929765886287,False,283.94648829431435,#40E0D0
+289,Tartus Agriculture NGO 290,Internal,Tartus,Agriculture,NGO,12,44579,0.13,0.36,0.4,0.04013377926421405,False,300.66889632107024,#40E0D0
+290,Damascus Professional Services Government Agency 291,Internal,Damascus,Professional Services,Government Agency,9,N/A,0.19,0.41,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+291,Tartus Technology Industry Association 292,Internal,Tartus,Technology,Industry Association,13,N/A,0.44,0.35,0.43,0.043478260869565216,False,317.3913043478261,#40E0D0
+292,Aleppo Manufacturing Cooperative 293,Internal,Aleppo,Manufacturing,Cooperative,8,10669,0.17,0.39,0.27,0.026755852842809364,False,233.77926421404683,#40E0D0
+293,Tartus Healthcare Business Center 294,Internal,Tartus,Healthcare,Business Center,9,N/A,0.3,0.34,0.3,0.030100334448160536,False,250.5016722408027,#40E0D0
+294,Latakia Agriculture Government Agency 295,Internal,Latakia,Agriculture,Government Agency,7,18515,0.12,0.37,0.23,0.023411371237458192,False,217.05685618729098,#40E0D0
+295,Sweden Infrastructure Investment Fund 296,Diaspora,Sweden,Infrastructure,Investment Fund,11,67749,0.43,0.47,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+296,Deir ez-Zor Manufacturing University 297,Internal,Deir ez-Zor,Manufacturing,University,5,N/A,0.17,0.36,0.17,0.016722408026755852,False,183.61204013377926,#40E0D0
+297,USA Manufacturing Business Network 298,Diaspora,USA,Manufacturing,Business Network,11,92983,0.58,0.34,0.37,0.03678929765886287,False,283.94648829431435,#FA8072
+298,Hama Manufacturing Chamber of Commerce 299,Internal,Hama,Manufacturing,Chamber of Commerce,5,19057,0.22,0.32,0.17,0.016722408026755852,False,183.61204013377926,#40E0D0
+299,Homs Finance NGO 300,Internal,Homs,Finance,NGO,5,32093,0.13,0.25,0.17,0.016722408026755852,False,183.61204013377926,#40E0D0
